@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+header, article, section{
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    position: relative;
+}
+
+nav{
+    position: absolute;
+    top: 25px;
+    right: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin-left: 25px;
+    cursor: pointer;
+}
+nav ul li{
+    text-transform:uppercase;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav li:hover{
+    color: rgb(204, 53, 53);
+    transition: 200ms;
+}
+
+.pizza-grande{
+    width: 100%;
+}
+
+li, p{
+    font-size: 1.2em;
+}
+
+h1, h2{
+    margin: 20px;
+}
+
+article h2{
+    color: rgb(204, 53, 53);
+    text-align: center;
+}
+
+section h2{
+    margin-top: 100px;
+}
+
+#diferenciais h2{
+    color: #15501D;
+}
+#localiza h2{
+    color: rgb(204, 53, 53);
+}
+
+#diferenciais ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 35%;
+}
+
+#diferenciais ul li{
+    line-height: 1.8;
+}
+
+#diferenciais img{
+    width: 50%;
+    border-radius: 20px;
+}
+
